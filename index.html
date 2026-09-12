@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050a13" />
+    <title>Megatron | Personal AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="assistant.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <nav class="rail" aria-label="Primary navigation">
+        <a class="brand" href="#" aria-label="Megatron home"><span>M</span></a>
+        <div class="nav-items">
+          <button class="nav-button active" aria-label="Command center">⌘</button>
+          <button class="nav-button" aria-label="Activity">◫</button>
+          <button class="nav-button" aria-label="Settings">⚙</button>
+        </div>
+        <button class="profile" aria-label="Profile">AS</button>
+      </nav>
+
+      <section class="workspace">
+        <header class="topbar">
+          <div><p class="eyebrow">SYSTEM / ONLINE</p><h1>Good evening, Aniket.</h1></div>
+          <div class="status"><span></span> All systems nominal <time id="clock"></time></div>
+        </header>
+
+        <section class="hero" aria-labelledby="assistant-title">
+          <div class="orb-wrap" aria-hidden="true"><div class="orb"><i></i><i></i><i></i></div></div>
+          <div class="hero-copy">
+            <p class="eyebrow">MEGATRON PERSONAL INTELLIGENCE</p>
+            <h2 id="assistant-title">How can I help you<br />move forward?</h2>
+            <p class="intro">Your focused command center for ideas, tasks, and the work ahead.</p>
+          </div>
+        </section>
+
+        <section class="assistant-panel" aria-label="Talk to Megatron">
+          <div class="command-input">
+            <label class="sr-only" for="prompt">Ask Megatron anything</label>
+            <input id="prompt" type="text" autocomplete="off" placeholder="Ask Megatron anything..." />
+            <button id="voice-button" class="icon-button" aria-label="Use voice input" title="Use voice input">⌁</button>
+            <button id="send-button" class="send-button" aria-label="Send message">↗</button>
+          </div>
+          <p id="assistant-response" class="assistant-response" aria-live="polite">Ready when you are.</p>
+          <div class="assistant-tools">
+            <span><i></i> LOCAL ASSISTANT ENGINE</span>
+            <label class="voice-toggle"><input id="speak-toggle" type="checkbox" checked /> Voice replies</label>
+          </div>
+          <div class="suggestions">
+            <button data-prompt="Plan my day">Plan my day <span>↗</span></button>
+            <button data-prompt="Capture an idea">Capture an idea <span>↗</span></button>
+            <button data-prompt="What should I focus on?">Find my focus <span>↗</span></button>
+            <button data-prompt="Give me a quick briefing">Daily briefing <span>↗</span></button>
+          </div>
+        </section>
+
+        <section class="conversation" aria-labelledby="conversation-title">
+          <div class="section-title"><p class="eyebrow" id="conversation-title">COMMAND LOG</p><span>SESSION ACTIVE</span></div>
+          <ul id="transcript" class="transcript" aria-live="polite">
+            <li class="message assistant"><span>MEGATRON</span><p>Systems online. I can manage local tasks and notes, report the time, or search the web. Say “help” for commands.</p></li>
+          </ul>
+        </section>
+
+        <section class="dashboard" aria-label="Daily overview">
+          <article class="card focus-card"><div class="card-heading"><p class="eyebrow">CURRENT FOCUS</p><button class="more" aria-label="More focus options">•••</button></div><h3>Build something<br />that matters.</h3><div class="focus-footer"><span class="pulse"></span><span>Deep work session</span><b>48:12</b></div></article>
+          <article class="card agenda-card"><div class="card-heading"><p class="eyebrow">UP NEXT</p><span class="count">02</span></div><ul><li><time>09:30</time><div><strong>Project review</strong><span>Product design</span></div></li><li><time>11:00</time><div><strong>Focus block</strong><span>Megatron workspace</span></div></li></ul><button class="text-button">View full agenda <span>→</span></button></article>
+          <article class="card metrics-card"><div class="card-heading"><p class="eyebrow">WEEKLY RHYTHM</p><span class="trend">+18%</span></div><div class="metric"><b>24.6</b><span>hours focused</span></div><div class="bars" aria-label="Focus hours by weekday"><i style="height: 36%"></i><i style="height: 58%"></i><i style="height: 42%"></i><i style="height: 80%"></i><i class="today" style="height: 66%"></i><i style="height: 29%"></i><i style="height: 21%"></i></div><div class="days"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div></article>
+        </section>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
