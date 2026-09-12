@@ -1,0 +1,15 @@
+.assistant-tools { display:flex; justify-content:space-between; margin-top:10px; color:#61748a; font:10px "DM Mono", monospace; }
+.assistant-tools > span, .voice-toggle { display:flex; align-items:center; gap:6px; }
+.assistant-tools i { height:6px; width:6px; border-radius:50%; background:var(--accent); }
+.voice-toggle { cursor:pointer; }
+.voice-toggle input { accent-color:var(--accent); }
+.conversation { max-width:868px; margin:35px auto 0; }
+.section-title { display:flex; justify-content:space-between; margin-bottom:11px; }
+.section-title > span { color:#6e8295; font:10px "DM Mono", monospace; }
+.transcript { list-style:none; padding:0; margin:0; border:1px solid var(--line); border-radius:8px; background:rgba(10,20,33,.66); max-height:230px; overflow:auto; }
+.message { padding:13px 16px; border-bottom:1px solid var(--line); display:grid; grid-template-columns:80px 1fr; gap:10px; }
+.message:last-child { border:0; }
+.message > span { font:10px "DM Mono", monospace; color:var(--accent); padding-top:2px; }
+.message.user > span { color:#61bdf5; }
+.message p { margin:0; font-size:12px; color:#b6c3d1; line-height:1.5; }
+@media (max-width:440px) { .assistant-tools { gap:10px; } .message { grid-template-columns:58px 1fr; } }
