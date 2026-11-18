@@ -52,9 +52,9 @@ Goal: To become a skilled Software & AI Engineer
 
 Explore my academic background, technical skills, projects, certifications and experience.
 
-[![Download Resume](https://img.shields.io/badge/⬇_DOWNLOAD_MY_RESUME-00C853?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/Aniket_Shekokar_Resume.pdf)
+[![Download Resume](https://img.shields.io/badge/⬇_DOWNLOAD_MY_RESUME-00C853?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](ANIKET_Resume(1).pdf)
 
-[![View Resume](https://img.shields.io/badge/VIEW_RESUME-0078D4?style=for-the-badge&logo=readthedocs&logoColor=white)](assets/Aniket_Shekokar_Resume.pdf)
+[![View Resume](https://img.shields.io/badge/VIEW_RESUME-0078D4?style=for-the-badge&logo=readthedocs&logoColor=white)](ANIKET_Resume(1).pdf)
 
 </div>
 
