@@ -6,7 +6,7 @@
 
 ### Building intelligent solutions through code, creativity & innovation.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming_Soon-00D9FF?style=for-the-badge&logo=vercel&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-00D9FF?style=for-the-badge&logo=vercel&logoColor=white)](https://aniketshekokar.github.io/)
 [![Resume](https://img.shields.io/badge/Resume-View_My_Resume-00C853?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](ANIKET_Resume(1).pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aniket-shekokar-2b4892305/)
 
